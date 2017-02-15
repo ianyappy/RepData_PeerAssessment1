@@ -2,9 +2,11 @@
 title: "Reproducible Research Week 2 Project"
 author: "Yap Ching Loong Ian"
 date: "February 14, 2017"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
-
+ 
 ```{r setup, include=FALSE}
 library(dplyr)
 library(ggplot2)
